@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
       <div className={styles.imageHolder}>
         <img  src="/fluma.svg" alt="Fluma Dev" width={250} />
-        <h1>Em breve</h1>
+        <h1>Em breve...</h1>
         <a href="https://github.com/flumadev" className={styles.github}>
           <img src="/github.png" alt="Github" width={50} />
           <code>/flumadev</code>
