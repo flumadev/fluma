@@ -9,6 +9,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Fluma</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="shortcut icon" href="/fluma.svg" />
       </Head>
       <div className={styles.imageHolder}>
         <img  src="/fluma.svg" alt="Fluma Dev" width={250} />
