@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <div className={styles.textContainer}>
           <Image src={logo} />
           <h1>em breve...</h1>
-          <a className={styles.gitText} href={gitlink} target="_blank">
+          <a className={styles.gitText} href={gitlink} target="_blank" rel="noreferrer">
             <Image src={githubLogo} width={34} height={34} />
             <h1>/flumadev</h1>
           </a>
