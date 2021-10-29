@@ -1,6 +1,20 @@
-.imageHolder{
+.container {
   width: 100vw;
   height: 100vh;
+
+  background-image: url("../public/background.png");
+}
+
+.textContainer {
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(
+    90.16% 143.01% at 15.32% 21.04%,
+    rgba(165, 239, 255, 0.2) 0%,
+    rgba(110, 191, 244, 0.0447917) 77.08%,
+    rgba(70, 144, 213, 0) 100%
+  );
+  backdrop-filter: blur(30px);
 
   display: flex;
   flex-direction: column;
@@ -9,21 +23,25 @@
 
 }
 
-.imageHolder h1{
+.textContainer h1 {
+  color: #fff;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 200;
 
 }
 
-.github{
-  margin-top: 50px;
-
+.gitText{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
 
 }
 
-.github img {
-  margin-right: 20px;
+.gitText img {
+  object-fit: contain;
+
+}
+
+.gitText h1 {
+  margin-left: 15px;
 
 }
