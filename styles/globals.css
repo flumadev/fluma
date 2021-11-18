@@ -7,11 +7,8 @@ body {
     background-color: #232323;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+  text-decoration: none;
+  color: white;
 }

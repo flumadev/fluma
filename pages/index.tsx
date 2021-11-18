@@ -1,12 +1,43 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
-import logo from "../public/logo.png";
+import styled from "styled-components";
+
+import flumaLogo from "../public/logo.png";
 import githubLogo from "../public/githubLogo.png";
 
-const gitlink = "https://github.com/flumadev"
+const Navbar = styled.div`
+  height: 100px;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+`;
+
+const ContentHolder = styled.div`
+  display: flex;
+justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  max-width: 1366px;
+`;
+
+const GithubLink = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    margin-right: 20px;
+
+    a{
+      margin-left: 5px;
+    }
+
+    
+`;
 
 const Home: NextPage = () => {
   return (
@@ -24,16 +55,15 @@ const Home: NextPage = () => {
         />
       </Head>
 
-      <div className={styles.container}>
-        <div className={styles.textContainer}>
-          <Image src={logo} />
-          <h1>em breve...</h1>
-          <a className={styles.gitText} href={gitlink} target="_blank" rel="noreferrer">
-            <Image src={githubLogo} width={34} height={34} />
-            <h1>/flumadev</h1>
-          </a>
-        </div>
-      </div>
+      <Navbar>
+        <ContentHolder>
+          <GithubLink>
+            <Image src={githubLogo} alt="" height={20} width={20} />
+            <a href="https://github.com/flumadev">/flumadev</a>
+          </GithubLink>
+          <Image src={flumaLogo} alt="" width={200} objectFit="contain"  />
+        </ContentHolder>
+      </Navbar>
     </>
   );
 };
