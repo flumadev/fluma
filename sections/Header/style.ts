@@ -11,6 +11,9 @@ background-color: #0a0a0a;
     justify-content: center ;
     align-items: center;
 
+    
+
+
 `
 
 export const HeaderContainer = styled.div`
@@ -19,6 +22,7 @@ export const HeaderContainer = styled.div`
     justify-content: center;
 
 `
+
 
 export const TextContainer = styled.div`
     max-width: 500px;
@@ -48,6 +52,7 @@ p{
     color: #FFFFFF;
 }
 `
+
 
 export const ImageContainer = styled.div`
 `

@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 
 import Head from 'next/head'
-import PageHeader from '../components/Header'
+import PageHeader from '../components/Navbar'
 import Footer from '../components/Footer'
 
 
