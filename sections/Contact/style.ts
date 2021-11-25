@@ -7,7 +7,7 @@ export const ContactSection = styled.div`
     background-color: #F2F2F2;
 
     display: flex;
-    justify-content: center;
+    justify-content: center ;
     align-items: center;
 
 `

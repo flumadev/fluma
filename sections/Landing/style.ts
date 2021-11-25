@@ -8,7 +8,7 @@ background-color: #0a0a0a;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center ;
     align-items: center;
 
 `

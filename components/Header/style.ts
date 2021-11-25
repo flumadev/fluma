@@ -7,12 +7,14 @@ export const HeaderContainer = styled.div`
     background-color: #0a0a0a;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center ;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
+
+    z-index: 9999;
 
 
     color: #FFFFFF;

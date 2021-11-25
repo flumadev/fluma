@@ -7,7 +7,7 @@ export const ServiceContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: column ;
 
     h1{
 
