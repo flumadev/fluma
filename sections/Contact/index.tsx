@@ -23,8 +23,10 @@ const Contact = () => {
                             </ContactTileContainer>
                             
                             <ContactTileContainer href="mailto:contato@fluma.dev">
-                                <FaEnvelope />
-                                <a >contato@fluma.dev</a>
+                               <li> 
+                                    <FaEnvelope />
+                                    <a >contato@fluma.dev</a>
+                                </li>
                             </ContactTileContainer>
                         </ContactButtons>
                    
