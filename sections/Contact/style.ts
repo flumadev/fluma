@@ -113,7 +113,8 @@ export const FormContainer = styled.div`
 
    border-radius: 12px;
 
-   background-color: tomato;
+   
+   background: linear-gradient(107.95deg, #8F67C2 33.25%, #DB00FF 71.63%);
 
    display: flex;
    flex-direction: column;

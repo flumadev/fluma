@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiFillGithub, AiFillInstagram } from 'react-icons/ai'
 import {FaPhone,FaEnvelope, FaGithub, FaInstagram} from 'react-icons/fa'
 import { ContactButtons, ContactFormContainer, ContactSection, FormContainer, TextContainer, TextTitle, ContactTileContainer, SocialIcons } from './style'
 
@@ -14,19 +15,27 @@ const Contact = () => {
                         <h1>Vamos falar sobre seu projeto</h1>
                         <p>Envie uma mensagem e nosso time falará com você em breve</p>
                     </TextTitle>
-                    <ContactButtons>
-                        <ContactTileContainer href="tel:+5524993167352">
-                            <FaPhone />
-                            <a >+55 24 9 9316 7352</a>
-                        </ContactTileContainer>
-                        <ContactTileContainer href="mailto:contato@fluma.dev">
-                            <FaEnvelope />
-                            <a >contato@fluma.dev</a>
-                        </ContactTileContainer>
-                    </ContactButtons>
+                 
+                        <ContactButtons>
+                            <ContactTileContainer href="tel:+5524993167352">
+                                <FaPhone />
+                                <a >+5524993167352</a>
+                            </ContactTileContainer>
+                            
+                            <ContactTileContainer href="mailto:contato@fluma.dev">
+                               <li> 
+                                    <FaEnvelope />
+                                    <a >contato@fluma.dev</a>
+                                </li>
+                            </ContactTileContainer>
+                        </ContactButtons>
+                   
                     <SocialIcons>
-                        <FaGithub />
-                        <FaInstagram />
+                        
+                    <a href="https://github.com/flumadev" target="_blank" rel="noreferrer"><AiFillGithub fontSize={32}/> </a>
+                    <a href="#" target="_blank" rel="noreferrer"><AiFillInstagram fontSize={32}/> </a>
+
+                      
                     </SocialIcons>
                 </TextContainer>
                 <FormContainer>
@@ -36,7 +45,7 @@ const Contact = () => {
                     <label htmlFor="email">Email</label>
                     <input type="mail" />
 
-                    <label htmlFor="message">Mensagem</label>
+                    <label htmlFor="message" placeholder=''>Mensagem</label>
                     <textarea name="message" id="message" ></textarea>
                 </FormContainer>
             </ContactFormContainer>
