@@ -25,7 +25,7 @@ Desenvolvemos seu sistemas sob medida</p>
 
                 <Card>
                     <FiCloud fontSize={100}/>
-                    <h1>DImplementamos seu sistema</h1>
+                    <h1>Implementamos seu sistema</h1>
                     <p>Deixamos tudo pronto para o uso!
 Também publicamos e hospedamos se preferir.</p>
                 </Card>
