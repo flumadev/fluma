@@ -51,12 +51,47 @@ export const TextTitle = styled.div`
     }
 `
 export const ContactButtons = styled.div`
-    height: 30%;
+    height: 40%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+
+    a{
+        width: 60%;
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        border-radius: 12px;
+
+        padding: 0 20px;
+
+        margin-bottom: 20px;
+
+        border: 2px solid #000;
+        
+        transition: all 0.3s;
+        h1{
+            font-size: 16px;
+        }
+
+        svg{
+            margin-right: 20px;
+        }
+        &:hover{
+            /* background-color: #fff; */
+            border-color:  white;
+            h1,svg{
+                /* color: #000; */
+            }
+        }
+        
+    }
+
+
 
     
    

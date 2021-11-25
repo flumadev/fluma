@@ -17,17 +17,15 @@ const Contact = () => {
                     </TextTitle>
                  
                         <ContactButtons>
-                            <ContactTileContainer href="tel:+5524993167352">
+                            <a href="tel:+5524993167352">
                                 <FaPhone />
-                                <a >+5524993167352</a>
-                            </ContactTileContainer>
-                            
-                            <ContactTileContainer href="mailto:contato@fluma.dev">
-                               <li> 
-                                    <FaEnvelope />
-                                    <a >contato@fluma.dev</a>
-                                </li>
-                            </ContactTileContainer>
+                                <h1 >+5524993167352</h1>
+                            </a>
+
+                            <a href="mailto:contato@fluma.dev">
+                                <FaEnvelope />
+                                <h1 >contato@fluma.dev</h1>
+                            </a>
                         </ContactButtons>
                    
                     <SocialIcons>
