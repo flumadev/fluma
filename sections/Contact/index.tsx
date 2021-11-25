@@ -17,7 +17,7 @@ const Contact = () => {
                     <ContactButtons>
                         <ContactTileContainer href="tel:+5524993167352">
                             <FaPhone />
-                            <a >+5524993167352</a>
+                            <a >+55 24 9 9316 7352</a>
                         </ContactTileContainer>
                         <ContactTileContainer href="mailto:contato@fluma.dev">
                             <FaEnvelope />
