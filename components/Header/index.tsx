@@ -1,11 +1,20 @@
 import React from 'react'
+import { HeaderContainer } from './style'
+
+import { AiFillGithub } from 'react-icons/ai'
 
 
 
-export default function index() {
+const PageHeader = () => {
     return (
-        <div>
-            
-        </div>
+        <HeaderContainer>
+            <ul>
+                <li className="contactLink"><a href="#contact">Contato</a></li>
+                <li> <a href="https://github.com/flumadev" target="_blank"><AiFillGithub fontSize={24}/> /flumadev</a></li>
+            </ul>
+        </HeaderContainer>
     )
 }
+
+
+export default PageHeader
