@@ -19,7 +19,7 @@ const Contact = () => {
                         <ContactButtons>
                             <a href="tel:+5524993167352">
                                 <FaPhone />
-                                <h1 >+5524993167352</h1>
+                                <h1 >+55 24 9 9316 7352</h1>
                             </a>
 
                             <a href="mailto:contato@fluma.dev">
@@ -37,14 +37,20 @@ const Contact = () => {
                     </SocialIcons>
                 </TextContainer>
                 <FormContainer>
-                    <label htmlFor="name">Nome</label>
-                    <input type="text" name="name" />
+                   <div>
+                        <label htmlFor="name">Nome</label>
+                        <input type="text" name="name" />
+                   </div>
 
-                    <label htmlFor="email">Email</label>
-                    <input type="mail" />
+                   <div>
+                        <label htmlFor="email">Email</label>
+                        <input type="mail" />
+                    </div>
 
-                    <label htmlFor="message" placeholder=''>Mensagem</label>
-                    <textarea name="message" id="message" ></textarea>
+                    <div>
+                        <label htmlFor="message" placeholder=''>Mensagem</label>
+                        <textarea name="message" id="message" />
+                    </div>
                 </FormContainer>
             </ContactFormContainer>
         </ContactSection>

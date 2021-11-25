@@ -154,20 +154,34 @@ export const FormContainer = styled.div`
    display: flex;
    flex-direction: column;
    justify-content: center;
-   input {
+   
+   div{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+
+       margin-top: 20px;
+       input {
        height: 40px;
        border-radius: 6px;
        border: none;
+
+       margin-bottom: 20px;
    }
 
    textarea{
         border: none;
        border-radius: 6px;
+       height: 200px;
 
    }
 
    label{
        margin-top: 20px;
+       color: #fff;
+
+       font-size: 20px;
    }
 
    input, textarea, label {
@@ -175,4 +189,6 @@ export const FormContainer = styled.div`
 
        margin: 0 auto;
    }
+   }
+   
 `
