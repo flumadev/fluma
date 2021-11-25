@@ -10,7 +10,7 @@ const PageHeader = () => {
         <HeaderContainer>
             <ul>
                 <li className="contactLink"><a href="#contact">Contato</a></li>
-                <li> <a href="https://github.com/flumadev" target="_blank"><AiFillGithub fontSize={24}/> /flumadev</a></li>
+                <li> <a href="https://github.com/flumadev" target="_blank" rel="noreferrer"><AiFillGithub fontSize={24}/> /flumadev</a></li>
             </ul>
         </HeaderContainer>
     )

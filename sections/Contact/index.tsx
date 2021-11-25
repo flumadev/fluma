@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaPhone,FaEnvelope, FaGithub, FaInstagram} from 'react-icons/fa'
-import { ContactButtons, ContactFormContainer, ContactSection, FormContainer, TextContainer, TextTitle, Tile, ContactTileContainer, SocialIcons } from './style'
+import { ContactButtons, ContactFormContainer, ContactSection, FormContainer, TextContainer, TextTitle, ContactTileContainer, SocialIcons } from './style'
 
 
 
@@ -37,7 +37,7 @@ const Contact = () => {
                     <input type="mail" />
 
                     <label htmlFor="message">Mensagem</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <textarea name="message" id="message" ></textarea>
                 </FormContainer>
             </ContactFormContainer>
         </ContactSection>
