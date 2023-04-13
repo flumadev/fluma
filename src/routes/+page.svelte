@@ -42,7 +42,8 @@
                     <h1 class="text-xl font-medium	">Design.</h1>
                     <p class="mt-8">Até nossos desenvolvedores são designers. Vemos design em tudo o que fazemos.</p>
                 </a>
-                <div class="max-w-1/2 w-full border border-white p-4 pb-8 rounded-md bg-white text-black  shadow-2xl shadow-white	">
+                <a href="/service"
+                   class="max-w-1/2 w-full border border-white p-4 pb-8 rounded-md bg-white text-black  shadow-2xl shadow-white	">
                     <div class="w-[75px] h-[90px] p-4 bg-slate-950 flex rounded-lg mb-4 ">
                         <svg class="fill-current text-white" viewBox="0 0 640 512"
                              xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="img">
@@ -52,7 +53,7 @@
                     <h1 class="text-xl font-medium	">Serviço.</h1>
                     <p class="mt-8">Nós fornecemos um serviço do qual nos orgulhamos. Não paramos até que tenhamos feito
                         o nosso melhor.</p>
-                </div>
+                </a>
             </div>
         </div>
     </section>
