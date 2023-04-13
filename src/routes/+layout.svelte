@@ -5,6 +5,6 @@
 </script>
 
 
-<!--<Nav/>-->
+<Nav/>
 <slot/>
 <Footer/>
