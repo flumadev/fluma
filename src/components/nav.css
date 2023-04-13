@@ -1,0 +1,18 @@
+:root {
+    --easing: cubic-bezier(.86, 0, .07, 1);
+}
+
+.nav {
+    bottom: 0;
+    position: fixed;
+    top: 0;
+    transform: translate3d(calc(-100%), 0, 0);
+    transition: transform 1.2s var(--easing) .2s;
+    width: 100vw;
+    z-index: 30;
+}
+
+.nav.is-open {
+    transform: translateZ(0);
+    transition-delay: 0s;
+}
