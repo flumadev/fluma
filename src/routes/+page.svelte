@@ -18,7 +18,7 @@
     <section class="min-h-screen ">
         <div class="container py-20">
             <h1 class="text-3xl text-center">Somos os melhores no que fazemos.</h1>
-            <div class="flex flex-col gap-8 mt-20 max-w-[1000px] mx-auto	">
+            <div class="flex flex-col gap-8 mt-20 max-w-[1000px] mx-auto sm:flex-row	">
                 <div class="max-w-1/2 w-full border border-white p-4 pb-8 rounded-md bg-white text-black  shadow-2xl shadow-white	">
                     <div class="w-[75px] h-[90px] p-4 bg-slate-950 flex rounded-lg mb-4 ">
                         <svg class="fill-current text-white" viewBox="0 0 640 512"
