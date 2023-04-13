@@ -1,4 +1,4 @@
-<main class="sm:ml-12 md:ml-16">
+<main class="">
     <header class="section relative lg:pb-48">
         <div class="container"><h1 class="font-thin mt-20 text-5xl text-5xl sm:text-2xl md:text-4xl max-w-screen-md ">
             Nossos clientes <br/>vêm em primeiro lugar.</h1>
