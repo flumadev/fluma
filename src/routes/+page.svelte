@@ -2,7 +2,7 @@
     <title>Fluma // Agência digital</title>
 </svelte:head>
 
-<main class="bg-[url('/blob.svg')] bg-no-repeat bg-contain md:bg-cover bg-[center_top_8rem] sm:bg-top">
+<main class="bg-[url('/blob.svg')] bg-no-repeat bg-contain md:bg-cover bg-[center_top_8rem] sm:bg-top select-none">
     <header class="container h-[80svh] ">
         <div class="flex flex-col-reverse md:flex-row h-full items-center justify-center ">
             <div class="w-full">
@@ -19,7 +19,8 @@
         <div class="container py-20">
             <h1 class="text-3xl text-center">Somos os melhores no que fazemos.</h1>
             <div class="flex flex-col gap-8 mt-20 max-w-[1000px] mx-auto sm:flex-row	">
-                <div class="max-w-1/2 w-full border border-white p-4 pb-8 rounded-md bg-white text-black  shadow-2xl shadow-white	">
+                <a href="/technology"
+                   class="max-w-1/2 w-full border border-white p-4 pb-8 rounded-md bg-white text-black  shadow-2xl shadow-white	">
                     <div class="w-[75px] h-[90px] p-4 bg-slate-950 flex rounded-lg mb-4 ">
                         <svg class="fill-current text-white" viewBox="0 0 640 512"
                              xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="img">
@@ -29,7 +30,7 @@
                     <h1 class="text-xl font-medium	">Tecnologia.</h1>
                     <p class="mt-8">Somos obcecados pela tecnologia. Sempre a certa para cada aplicação. É a nossa
                         base.</p>
-                </div>
+                </a>
                 <div class="max-w-1/2 w-full border border-white p-4 pb-8 rounded-md bg-white text-black  shadow-2xl shadow-white	">
                     <div class="w-[75px] h-[90px] p-4 bg-slate-950 flex rounded-lg mb-4 ">
                         <svg class="fill-current text-white" viewBox="0 0 512 512"

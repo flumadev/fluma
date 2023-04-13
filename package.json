@@ -33,3 +33,11 @@
 	},
 	"type": "module"
 }
+
+
+"devDependencies": {
+	"@fluma": "^1.0.0",
+	"tech": "latest",
+	"design": "latest",
+	"expertise": "latest",
+}
