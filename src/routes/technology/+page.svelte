@@ -1,15 +1,11 @@
-<script>
-    import './technology.css'
-</script>
-
 <main>
-    <header class="section relative lg:pt-48 mb-48 h-[80svh] flex flex-col items-center justify-center">
+    <header class="section relative lg:pt-48 mb-48 min-h-[80svh] flex flex-col items-center justify-center">
         <div class="container">
-            <h1 class=" font-thin	font-light text-lg sm:text-2xl md:text-4xl max-w-screen-md mb-20">
+            <h1 class="font-thin mt-20 text-5xl text-5xl sm:text-2xl md:text-4xl max-w-screen-md ">
                 Apenas o
                 melhor <br/>da
                 tecnologia</h1>
-            <div class="flex max-md:flex-col relative">
+            <div class="flex max-md:flex-col mt-20 relative">
                 <div class="space-y-7 md:w-1/3 relative z-20 md:mr-16 max-md:mb-8">
                     <div class=" md:text-xl">
                         <h2 class="font-medium">Código do futuro.</h2>
