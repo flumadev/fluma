@@ -15,7 +15,7 @@
     <meta property="og:title" content="Fluma // Agência digital">
     <meta property="og:description"
           content="Agência digital especializada em e-commerce, desenvolvimento web e aplicativos.">
-    <meta property="og:image" content="https://fluma.dev/static/og.png">
+    <meta property="og:image" content="https://fluma.dev/og.png">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -24,7 +24,7 @@
     <meta name="twitter:title" content="Fluma // Agência digital">
     <meta name="twitter:description"
           content="Agência digital especializada em e-commerce, desenvolvimento web e aplicativos.">
-    <meta name="twitter:image" content="https://fluma.dev/static/og.png">
+    <meta name="twitter:image" content="https://fluma.dev/og.png">
 
 </svelte:head>
 
