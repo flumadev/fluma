@@ -1,8 +1,4 @@
-<svelte:head>
-    <title>Fluma // Agência digital</title>
-</svelte:head>
-
-<main class="bg-no-repeat bg-contain md:bg-cover bg-[center_top_8rem] sm:bg-top select-none list-grid section relative overflow-hidden ">
+<main class="bg-no-repeat bg-contain md:bg-cover bg-[center_top_8rem] sm:bg-top list-grid section relative overflow-hidden ">
     <div class="glow-pink blur-large glow-motion top-96 left-36 w-[52rem] -z-10 opacity-20"
          style="animation-delay: 2s;"></div>
     <div class="glow-purple blur-large glow-motion top-96 right-8  w-[48rem] h-[48rem] -z-10 opacity-20"
