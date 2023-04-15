@@ -2,12 +2,13 @@
     <title>Fluma // Agência digital</title>
 </svelte:head>
 
-<main class="bg-no-repeat bg-contain md:bg-cover bg-[center_top_8rem] sm:bg-top select-none">
+<main class="bg-no-repeat bg-contain md:bg-cover bg-[center_top_8rem] sm:bg-top select-none list-grid section relative overflow-hidden ">
+    <div class="glow-pink blur-large glow-motion top-96 left-36 w-[52rem] -z-10 opacity-20"
+         style="animation-delay: 2s;"></div>
+    <div class="glow-purple blur-large glow-motion top-96 right-8  w-[48rem] h-[48rem] -z-10 opacity-20"
+         style="animation-delay: 1s;"></div>
     <header class="container h-[80svh] ">
-        <div class="glow-pink blur-large glow-motion top-96 left-36 w-[52rem] h-[24rem] -z-10 opacity-20"
-             style="animation-delay: 2s;"></div>
-        <div class="glow-purple blur-large glow-motion top-96 right-8 w-[48rem] h-[48rem] -z-10 opacity-20"
-             style="animation-delay: 1s;"></div>
+
         <div class="flex flex-col-reverse md:flex-row h-full items-center justify-center ">
             <div>
                 <h1 class="text-6xl md:text-[12rem] font-black mb-4 ">Fluma</h1>
@@ -74,6 +75,7 @@
                    class="flex flex-col items-start group justify-center p-4 sm:p-6 md:py-12 border-l border-white/10 hover:border-blue-500 transition-colors duration-300">
                     <img class="select-none object-contain w-36" src="clients/orthoflow.png" alt="My Shinee"/>
                 </a>
+
             </div>
         </div>
 
