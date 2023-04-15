@@ -61,7 +61,17 @@
     background-color: rgb(237 191 150/var(--tw-bg-opacity));
 }
 
-.glow, .glow-blue, .glow-brass, .glow-ocean, .glow-red {
+.glow-pink {
+    --tw-bg-opacity: 1;
+    background-color: rgb(136 40 182/var(--tw-bg-opacity));
+}
+
+.glow-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgb(88 30 255/var(--tw-bg-opacity));
+}
+
+[class*="glow"] {
     border-radius: 9999px;
     position: absolute;
     transform: translateZ(0);
@@ -72,7 +82,8 @@
     animation: glowMotion 6s linear infinite;
 }
 
-.glow-blue.blur-large, .glow-brass.blur-large, .glow-ocean.blur-large, .glow-red.blur-large, .glow.blur-large {
+
+[class*="glow-"].blur-large {
     --tw-blur: blur(120px);
     filter: var(--tw-blur);
 }
@@ -80,6 +91,11 @@
 .section {
     padding-bottom: 3rem;
     padding-top: 3rem;
+}
+
+.home-title {
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
 }
 
 @keyframes glowMotion {
