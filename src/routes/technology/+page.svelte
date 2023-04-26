@@ -59,8 +59,8 @@
                         dezenas de soluções usando todas as principais plataformas ou criando soluções personalizadas de
                         desenvolvimento intensivo.</p> <span
                         class="font-mono text-white mt-4 block text-sm">Frontend, Backend, Serverless, MVP, DevOps</span>
-                    <a href="/data-and-apis" class="button button-primary mt-8">
-                        Data &amp; APIs</a></div>
+                    
+                </div>
             </div>
         </div>
     </section>
