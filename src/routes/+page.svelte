@@ -19,7 +19,7 @@
     </div>
     <div class="glow-purple blur-large glow-motion top-96 right-8  w-[48rem] h-[48rem] -z-10 opacity-20"
          style="animation-delay: 1s;"></div>
-    <div class="absolute top-96 right-16  w-[48rem] h-[48rem] -z-10 rotate-90 "
+    <div class="absolute top-96 right-16  w-[48rem] h-[48rem] -z-10 rotate-90 opacity-20 md:opacity-100"
          style="animation-delay: 1s;">
         <svg width="761" height="722" viewBox="0 0 761 722" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd"
