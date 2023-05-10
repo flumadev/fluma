@@ -27,8 +27,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Echo site name
+      - name: Echo site url
         run: echo ${{ steps.vercel_deploy.outputs.preview-url }}    
+
+      - name: Echo teste
+        run: echo ${{ steps }}    
           
       - name: Install Dependencies
         run: npm add @unlighthouse/cli puppeteer
