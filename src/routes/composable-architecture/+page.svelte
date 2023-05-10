@@ -20,8 +20,6 @@
                         de APIs.</p>
                 </div>
                 <img class="md:w-2/3 relative z-20"
-                alt="Background"
-
                      src="https://images.prismic.io/monogram/5d82180f-88c6-4154-afc0-9a5e41109761_sharp-lines.jpg?auto=compress,format"
                      alt="sharp corner of building" width="1434" height="956" sizes="(max-width: 640px) 100vw, 50vw"
                      srcset="https://images.prismic.io/monogram/5d82180f-88c6-4154-afc0-9a5e41109761_sharp-lines.jpg?auto=compress%2Cformat&amp;quality=75&amp;width=512 512w,https://images.prismic.io/monogram/5d82180f-88c6-4154-afc0-9a5e41109761_sharp-lines.jpg?auto=compress%2Cformat&amp;quality=75&amp;width=768 768w,https://images.prismic.io/monogram/5d82180f-88c6-4154-afc0-9a5e41109761_sharp-lines.jpg?auto=compress%2Cformat&amp;quality=75&amp;width=1024 1024w,https://images.prismic.io/monogram/5d82180f-88c6-4154-afc0-9a5e41109761_sharp-lines.jpg?auto=compress%2Cformat&amp;quality=75&amp;width=1920 1920w,https://images.prismic.io/monogram/5d82180f-88c6-4154-afc0-9a5e41109761_sharp-lines.jpg?auto=compress%2Cformat&amp;quality=75&amp;width=2560 2560w"

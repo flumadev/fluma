@@ -1,7 +1,7 @@
 <main>
     <header class="section lg:pb-48">
         <div class="container">
-            <h1 class="font-thin mt-20 text-5xl text-5xl sm:text-2xl md:text-4xl max-w-screen-md ">
+            <h1 class="font-thin mt-20 text-5xl sm:text-2xl md:text-4xl max-w-screen-md ">
                 Design é como funciona.</h1>
             <div class="flex mt-16 max-md:flex-col relative">
                 <img

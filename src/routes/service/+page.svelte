@@ -1,6 +1,6 @@
 <main class="">
     <header class="section relative lg:pb-48">
-        <div class="container"><h1 class="font-thin mt-20 text-5xl text-5xl sm:text-2xl md:text-4xl max-w-screen-md ">
+        <div class="container"><h1 class="font-thin mt-20 text-5xl sm:text-2xl md:text-4xl max-w-screen-md ">
             Nossos clientes <br/>vêm em primeiro lugar.</h1>
             <div class="flex max-md:flex-col relative"><img
                     class="absolute left-1/2 -translate-x-1/2 opacity-30 w-1/2 z-1 translate-y-48 lg:translate-y-64 max-md:hidden"
