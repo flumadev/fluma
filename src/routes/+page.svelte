@@ -48,7 +48,7 @@
             <h1 class="text-3xl text-center">Somos os melhores no que fazemos.</h1>
             <div class="flex flex-wrap justify-center items-center gap-2 rounded-[200px] xl:rounded-full sm:p-6">
                 <a
-                        href="/design" data-sveltekit-prefetch=""
+                        href="/design" 
                         class="w-full xl:w-1/3 max-w-[300px] px-8 py-12 md:px-12 text-white aspect-square flex flex-col items-center justify-center rounded-full text-center group hover:bg-white/10 hover:text-white transition-colors duration-300 ease">
                     <svg class="fill-current icon mb-6 text-brass h-8" viewBox="0 0 512 512" focusable="false"
                          role="img"
