@@ -1,7 +1,7 @@
 <main>
     <header class="section lg:pb-48">
         <div class="container">
-            <h1 class="font-thin mt-20 text-5xl text-5xl sm:text-2xl md:text-4xl max-w-screen-md ">
+            <h1 class="font-thin mt-20 text-5xl sm:text-2xl md:text-4xl max-w-screen-md ">
                 Design é como funciona.</h1>
             <div class="flex mt-16 max-md:flex-col relative">
                 <img
@@ -43,7 +43,7 @@
                          draggable="true" loading="lazy">
                     <div class="max-w-sm md:ml-16"><h3 class="title text-base md:text-lg lg:text-xl mb-6">Aplicações
                         Web</h3>
-                        <p style="max-width: 350px" class="text-gray-400/60">Aplicativos da Web e sistemas de design,
+                        <p style="max-width: 350px" class="text-gray-400">Aplicativos da Web e sistemas de design,
                             incluindo tipografia, sistemas de grade, botões, menus, barras laterais e muito mais.
                             Desenhamos as peças para construir seu software mais utilizável e bonito do que nunca.</p>
                     </div>
@@ -63,7 +63,7 @@
                          draggable="true" loading="lazy">
                     <div class="max-w-sm md:mr-16"><h3 class="title text-base md:text-lg lg:text-xl mb-6">
                         Apps mobile</h3>
-                        <p style="max-width: 310px" class="text-gray-400/60">Os aplicativos iOS, iPadOS e Android são
+                        <p style="max-width: 310px" class="text-gray-400">Os aplicativos iOS, iPadOS e Android são
                             nosso território porque os usamos todos os dias. Nós liberamos nossa criatividade para
                             projetar as experiências móveis mais utilizáveis e atraentes do planeta.</p></div>
                 </div>
@@ -81,7 +81,7 @@
                          draggable="true" loading="lazy">
                     <div class="max-w-sm md:ml-16"><h3 class="title text-base md:text-lg lg:text-xl mb-6">Redesenhos e
                         Fluxos</h3>
-                        <p style="max-width: 305px" class="text-gray-400/60">Provavelmente, uma das coisas mais
+                        <p style="max-width: 305px" class="text-gray-400">Provavelmente, uma das coisas mais
                             gratificantes para nós é dar um passo para trás e ver como melhoramos o software que era
                             confuso, feio e inutilizável em algo muito melhor.</p></div>
                 </div>
@@ -100,7 +100,7 @@
                          draggable="true" loading="lazy">
                     <div class="max-w-sm md:mr-16"><h3 class="title text-base md:text-lg lg:text-xl mb-6">Sites
                         F*das</h3>
-                        <p style="max-width: 270px" class="text-gray-400/60">A Fluma projetou e desenvolveu experiências
+                        <p style="max-width: 270px" class="text-gray-400">A Fluma projetou e desenvolveu experiências
                             na web de classe com uma qualidade igual ou superior à das agências
                             de marketing e branding. Nosso design simplesmente funciona.</p></div>
                 </div>

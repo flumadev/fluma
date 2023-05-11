@@ -31,13 +31,13 @@
         <div class="container max-w-screen-lg">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-x-36 lg:gap-y-28">
                 <div class=""><h3 class="title mb-4">API First</h3>
-                    <p style="max-width: 340px" class="relative z-10 text-gray-400/60">Composable architecture is based
+                    <p style="max-width: 340px" class="relative z-10 text-gray-400">Composable architecture is based
                         on the principle of API-first, ensuring that applications in the stack work with other APIs
                         regardless of the programming language or platform they are written in. Not only the APIs are
                         language agnostic, but if used correctly, they can be used to build a complete stack of products
                         that work together seamlessly.</p></div>
                 <div class=""><h3 class="title mb-4">Composable vs. monoliths</h3>
-                    <p style="max-width: 340px" class="relative z-10 text-gray-400/60">Composable architecture offers a
+                    <p style="max-width: 340px" class="relative z-10 text-gray-400">Composable architecture offers a
                         number of clear advantages such as plug-and-play, API-first, and independent development. The
                         main advantage is that it allows you to build a complete stack of products that work together
                         seamlessly. This is in contrast to monolithic architecture, which is based on the idea of
@@ -45,12 +45,12 @@
                         difficult to implement, but it also makes it difficult to integrate with other products.</p>
                 </div>
                 <div class=""><h3 class="title mb-4">Jamstack as the foundation</h3>
-                    <p style="max-width: 340px" class="relative z-10 text-gray-400/60">Jamstack is here to stay. While
+                    <p style="max-width: 340px" class="relative z-10 text-gray-400">Jamstack is here to stay. While
                         composable architecture encompasses something larger than Jamstack we still believe in
                         statically generating certain pages and assets that are deployed on a CDN, and build upon that
                         foundation with headless, APIs and other microservices.</p></div>
                 <div class=""><h3 class="title mb-4">Only the best technology</h3>
-                    <p style="max-width: 340px" class="relative z-10 text-gray-400/60">We can help you select the
+                    <p style="max-width: 340px" class="relative z-10 text-gray-400">We can help you select the
                         products that best suit your needs and easily integrate them with other products to build your
                         stack. That way the focus is placed on the best technology for the job, not on the technology
                         that is available from one vendor alone.</p></div>

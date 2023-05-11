@@ -7,7 +7,7 @@
         </a>
     </div>
     <div class="min-h-[200px] flex flex-col items-center justify-center mt-32">
-        <img alt="Fluma" class="w-8" src="/logo.svg"/>
+        <img alt="Fluma" class="w-8" width="32" height="32" src="/logo.svg"/>
         <p class="font-thin mt-8 text-sm">&copy; Fluma soluções digitais</p>
         <p class="font-thin mt-8 text-sm">45.381.189/0001-48</p>
     </div>
