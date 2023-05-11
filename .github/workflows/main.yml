@@ -1,28 +1,20 @@
-name: Lighthouse
-env:
-  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-on:
-  push:
-    branches-ignore:
-      - main
-jobs:
-  Deploy-Preview:
+name: Light House
+on: 
+  push: 
+    branches: 
+      - develop
+
+jobs: 
+  lhci:
+    name: Lighthouse
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install Vercel CLI
-        run: npm install --global vercel@latest
-      - name: Pull Vercel Environment Information
-        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
-      - name: Build Project Artifacts
-        run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
-      - name: Deploy Project Artifacts to Vercel
-        id: vercel_deploy
-        run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
-
+        with:
+          fetch-depth: 0
+          
       - name: Install Dependencies
         run: npm add @unlighthouse/cli puppeteer
         
       - name: Unlighthouse assertions and client
-        run: unlighthouse-ci --site ${{ steps.vercel_deploy.outputs.preview_url }} --budget 75 --build-static
+        run: unlighthouse-ci --site https://fluma-lfals-fluma.vercel.app --budget 75 --build-static
