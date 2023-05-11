@@ -6,7 +6,7 @@
             <div class="flex mt-16 max-md:flex-col relative">
                 <img
                         class="absolute left-1/2 -translate-x-1/2 opacity-30 w-1/2 z-1 translate-y-48 lg:translate-y-64 max-md:hidden"
-                        src="/design/building.jpg"
+                        src="/designimg/building.jpg"
                         alt="Woman writing in sketchbook" width="1980" height="1380"
                         sizes="(min-width: 2560px) 2560px, 100vw"
                         srcset="https://images.prismic.io/monogram/7516efe3-afa2-4192-b5f9-78964d4486d4_unsplash_ml1IgjV8OvY.png?auto=compress%2Cformat&amp;quality=75&amp;width=512 512w,https://images.prismic.io/monogram/7516efe3-afa2-4192-b5f9-78964d4486d4_unsplash_ml1IgjV8OvY.png?auto=compress%2Cformat&amp;quality=75&amp;width=768 768w,https://images.prismic.io/monogram/7516efe3-afa2-4192-b5f9-78964d4486d4_unsplash_ml1IgjV8OvY.png?auto=compress%2Cformat&amp;quality=75&amp;width=1024 1024w,https://images.prismic.io/monogram/7516efe3-afa2-4192-b5f9-78964d4486d4_unsplash_ml1IgjV8OvY.png?auto=compress%2Cformat&amp;quality=75&amp;width=1920 1920w,https://images.prismic.io/monogram/7516efe3-afa2-4192-b5f9-78964d4486d4_unsplash_ml1IgjV8OvY.png?auto=compress%2Cformat&amp;quality=75&amp;width=2560 2560w"

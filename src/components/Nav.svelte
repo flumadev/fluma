@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <nav class="container py-2 md:py-8 ">
 
     <div class="grid grid-cols-2 md:flex md:justify-between items-center w-full gap-4">

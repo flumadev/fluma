@@ -15,7 +15,7 @@
                 </div>
                 <img class="w-[600px] relative z-20" draggable="false"
                 alt="Tecnologia"
-                     loading="eager" src="/tech.png"/>
+                     src="/tech.png"/>
             </div>
         </div>
 
