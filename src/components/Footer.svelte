@@ -1,10 +1,10 @@
-<footer class="section z-0 mt-32 pb-16 sm:ml-12 md:ml-16">
+<footer class="section z-0 mt-2 pb-16 sm:ml-12 md:ml-16">
 	<div
 		class="container flex flex-col items-start gap-8 sm:flex-row sm:items-center sm:justify-center sm:gap-16"
 	>
 		<h1 class="text-3xl">Venha para o futuro.</h1>
 		<a
-			class="flex gap-4 rounded-full bg-white p-4 text-black"
+			class="flex gap-4 rounded-full bg-white p-4 text-black w-full sm:w-auto"
 			href="mailto:flumadev@gmail.com"
 			target="_blank"
 		>
@@ -18,7 +18,7 @@
 		<p class="mt-8 text-sm font-thin">45.381.189/0001-48</p>
 	</div>
 
-	<div class="flex gap-7 text-xs">
+	<div class="flex gap-7 text-xs container">
 		<ul class="list-disc">
 			<li>
 				<a href="/design">Design</a>
