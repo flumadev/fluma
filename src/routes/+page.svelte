@@ -101,6 +101,10 @@
                    class="flex flex-col items-start group justify-center p-4 sm:p-6 md:py-12 border-l border-white/10 hover:border-blue-500 transition-colors duration-300">
                     <img class="select-none object-contain w-36" width="144" height="56" src="clients/orthoflow.png" alt="Orthoflow"/>
                 </a>
+                <a href="https://usefeeder.com/"
+                class="flex flex-col items-start group justify-center p-4 sm:p-6 md:py-12 border-l border-white/10 hover:border-blue-500 transition-colors duration-300">
+                <img class="select-none object-contain w-36" width="144" height="56" src="clients/feeder.svg" alt="Feeder"/>
+                </a>
 
             </div>
         </div>
