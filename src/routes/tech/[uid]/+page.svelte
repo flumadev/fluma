@@ -32,15 +32,13 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-x-36 lg:gap-y-28">
                 {#each data.document?.data.more as more }
                     <div class="">
-                        {#each more.icon as icon}
-                            {@html icon.text}
-                        {/each}
-                    <h3 class="title mb-4">{more.more_title[0].text}</h3>
-                    <p style="max-width: 340px" class="relative z-10 text-gray-400">
-                        {#each more.more_about as about }
-                            {about.text}
-                        {/each}
-                    </p>
+                        <img class="fill-current h-12 w-12 mb-8 text-gray-400 invert" src={more.icon.url} alt={more.icon.alt} width="48" height="48">
+                        <h3 class="title mb-4">{more.more_title[0].text}</h3>
+                        <p style="max-width: 340px" class="relative z-10 text-gray-400">
+                            {#each more.more_about as about }
+                                {about.text}
+                            {/each}
+                        </p>
                     </div>
                 {/each}
         </div>
@@ -56,9 +54,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-x-36 lg:gap-y-28">
                 {#each data.document?.data.details as details }
                     <div class="">
-                        {#each details.icon as icon }
-                            {@html icon.text}
-                        {/each}
+                        <img class="fill-current h-12 w-12 mb-8 text-gray-400 invert" src={details.icon.url} alt={details.icon.alt} width="48" height="48">
                         <h3 class="title mb-4">{details.details_item_title[0].text}</h3>
                         <p style="max-width: 340px" class="relative z-10 text-gray-400">
                             {#each details.details_text as details_text }
