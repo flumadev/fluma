@@ -49,9 +49,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-x-36 lg:gap-y-28">
                 {#each data.document?.data.experience as experience }
                 <div class="">
-                    {#each experience.icon as icon}
-                        {@html icon.text}
-                    {/each}
+                    <img class="fill-current h-12 w-12 mb-8 text-gray-400 invert" width="48" height="48" src={experience.icon.url} alt={experience.icon.alt}>
                     <h3 class="title mb-4">{experience.xp_title[0].text}</h3>
                     <p style="max-width: 340px" class="relative z-10 text-gray-400">
                         {#each experience.text as text}
