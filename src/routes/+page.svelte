@@ -1,3 +1,10 @@
+<script>
+    export var data;
+
+</script>
+
+<pre>{JSON.stringify(data.document.data.body, null, 2)}</pre>
+
 <main class="bg-no-repeat bg-contain md:bg-cover bg-[center_top_8rem] sm:bg-top list-grid section relative overflow-hidden ">
     <div class="glow-pink blur-large glow-motion top-96 left-36 w-[52rem] -z-10 opacity-20"
          style="animation-delay: 2s;"></div>
@@ -93,19 +100,12 @@
         <div class="container py-20">
             <h1 class="text-3xl mb-8">Valorizamos relacionamentos profundos.</h1>
             <div class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 sm:gap-x-6 lg:gap-x-16">
-                <a href="https://www.myshinee.com.br/"
-                   class="flex flex-col items-start group justify-center p-4 sm:p-6 md:py-12 border-l border-white/10 hover:border-blue-500 transition-colors duration-300">
-                    <img class="select-none object-contain w-36" width="144" height="56" src="clients/myshinee.png" alt="My Shinee"/>
-                </a>
-                <a href="https://orthoflow.com.br/"
-                   class="flex flex-col items-start group justify-center p-4 sm:p-6 md:py-12 border-l border-white/10 hover:border-blue-500 transition-colors duration-300">
-                    <img class="select-none object-contain w-36" width="144" height="56" src="clients/orthoflow.png" alt="Orthoflow"/>
-                </a>
-                <a href="https://usefeeder.com/"
-                class="flex flex-col items-start group justify-center p-4 sm:p-6 md:py-12 border-l border-white/10 hover:border-blue-500 transition-colors duration-300">
-                <img class="select-none object-contain w-36" width="144" height="56" src="clients/feeder.svg" alt="Feeder"/>
-                </a>
-
+                {#each data.document.data.body[0].items as client }
+                    <a href={client.client_website.url}
+                    class="flex flex-col items-start group justify-center p-4 sm:p-6 md:py-12 border-l border-white/10 hover:border-blue-500 transition-colors duration-300">
+                    <img class="select-none object-contain w-36" width="144" height="56" src={client.client_logo.url} alt={client.client_name[0].text}/>
+                    </a>
+                {/each}
             </div>
         </div>
 

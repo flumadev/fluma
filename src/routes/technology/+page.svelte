@@ -44,7 +44,7 @@
                         {/each}
                     </p> <span
                         class="font-mono text-white mt-4 block text-sm">{wwd.tags[0].text}</span>
-                    <a href={wwd.what_we_do_page.url} class="button button-primary mt-8">{wwd.link_title[0].text}</a></div>
+                    <a href={new URL(wwd.what_we_do_page.url).pathname} class="button button-primary mt-8">{wwd.link_title[0].text}</a></div>
                 {/each}
             </div>
         </div>
