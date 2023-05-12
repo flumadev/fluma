@@ -34,9 +34,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-x-36 lg:gap-y-28">
                 {#each data.document?.data.what_we_do as wwd }
                 <div class="">
-                    {#each wwd.icon  as icon }
-                        {@html icon.text}
-                    {/each}
+                    <img class="fill-current h-12 w-12 mb-8 text-gray-400 invert" width="48" height="48" src={wwd.icon.url} alt={wwd.icon.alt}>
                     <h3 class="title mb-4">{wwd.wwd_title[0].text}</h3>
                     <p class="relative z-10 text-gray-400" style="max-width: 340px">
                         {#each wwd.description as description}
@@ -64,9 +62,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-x-36 lg:gap-y-28">
                 {#each data.document?.data.process as process}
                 <div>
-                    {#each process.icon as icon}
-                        {@html icon.text}
-                    {/each}
+                    <img class="fill-current h-12 w-12 mb-8 text-gray-400 invert filter" src={process.icon.url} width="48" height="48" alt={process.icon.alt}>
                     <h3 class="title mb-4">{process.process_title[0].text}</h3>
                     <p style="max-width: 340px" class="relative z-10 text-gray-400">
                         {#each process.process_about as about}
