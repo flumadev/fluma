@@ -32,10 +32,10 @@
 		</ul>
 		<ul class="list-disc">
 			<li>
-				<a href="/ecommerce">Ecommerce</a>
+				<a href="tech/ecommerce">Ecommerce</a>
 			</li>
 			<li>
-				<a href="/modern-websites-and-apps">Sites e Aplicativos</a>
+				<a href="tech/modern-websites-and-apps">Sites e Aplicativos</a>
 			</li>
 		</ul>
 	</div>
