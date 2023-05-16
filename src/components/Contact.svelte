@@ -27,9 +27,9 @@
 </script>
 
 <form on:submit|preventDefault={onSubmit}>
-	<input placeholder="Nome" name="name" required />
-	<input placeholder="Empresa" name="company" />
-	<select name="interest" value="" required>
+	<input placeholder="Nome" name="name" required class="bg-slate-900" />
+	<input placeholder="Empresa" name="company"  class="bg-slate-900"/>
+	<select name="interest" value="" required  class="bg-slate-900">
 		<option disabled value="">Interesse</option>
 		<optgroup label="Web">
 			<option value="Websites">Websites</option>
@@ -42,7 +42,7 @@
 			<option value="Other">Outros</option>
 		</optgroup>
 	</select>
-	<input placeholder="Email" name="email" required />
+	<input placeholder="Email" name="email" required  class="bg-slate-900"/>
 	<button
 		type="submit"
 		class="flex w-full items-center justify-center gap-4 rounded-full bg-white p-4 align-middle text-black sm:w-auto"
@@ -100,7 +100,6 @@
 	input,
 	select {
 		border: 1px solid #2b3442;
-		background-color: #181e27;
 		border-radius: 4px;
 		padding: 1rem 2rem;
 		font-size: 16px;
