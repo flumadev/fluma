@@ -1,15 +1,14 @@
+<script>
+	import Contact from "./Contact.svelte";
+
+
+</script>
 <footer class="section z-0 mt-2 pb-16 sm:ml-12 md:ml-16">
 	<div
-		class="container flex flex-col items-start gap-8 sm:flex-row sm:items-center sm:justify-center sm:gap-16"
+		class="container flex flex-col items-start gap-8  sm:items-center sm:justify-center sm:gap-16"
 	>
 		<h1 class="text-3xl">Venha para o futuro.</h1>
-		<a
-			class="flex gap-4 rounded-full bg-white p-4 text-black w-full sm:w-auto"
-			href="mailto:flumadev@gmail.com"
-			target="_blank"
-		>
-			Entre em contato.
-		</a>
+		<Contact />
 	</div>
 
 	<div class="mt-32 flex min-h-[200px] flex-col items-center justify-center">
