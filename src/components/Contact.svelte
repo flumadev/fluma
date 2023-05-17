@@ -1,9 +1,5 @@
 <script>
-	import { doc, setDoc } from 'firebase/firestore';
-	import { db } from '../lib/firebase.js';
-	import ShortUniqueId from 'short-unique-id';
 	let sended = false;
-	const uid = new ShortUniqueId({ length: 10 });
 	/**
 	 * @param {any} e
 	 */
@@ -29,14 +25,38 @@
 				'Access-Control-Allow-Origin': '*'
 			}
 		});
-
 	}
 
+	let phone = '';
+
+	/**
+	 * @param { any } e
+	 */
+	function handleInput(e) {
+		const value = e.target.value;
+
+		//limit value
+		phone = value
+			.replace(/\D/g, '')
+			.replace(/^(\d)/, '($1')
+			.replace(/^(\(\d{2})(\d)/, '$1) $2')
+			.replace(/(\d{5})(\d{1,4})/, '$1-$2')
+			.replace(/(-\d{5})\d+?$/, '$1')
+			.slice(0, 15);
+	}
 </script>
 
 <form on:submit|preventDefault={onSubmit}>
 	<input placeholder="Nome" name="name" required class="bg-slate-900" />
 	<input placeholder="Empresa" name="company" class="bg-slate-900" />
+	<input
+		placeholder="Telefone"
+		name="phone"
+		class="bg-slate-900"
+		required
+		bind:value={phone}
+		on:input={handleInput}
+	/>
 	<select name="interest" value="" required class="bg-slate-900">
 		<option disabled value="">Interesse</option>
 		<optgroup label="Web">
@@ -51,12 +71,11 @@
 		</optgroup>
 	</select>
 	<input placeholder="Email" name="email" required class="bg-slate-900" />
-	
-	
+
 	<button
 		disabled={sended}
 		type="submit"
-		class="flex w-full items-center justify-center gap-4 rounded-full bg-white p-4 align-middle text-black sm:w-auto disabled:bg-slate-400"
+		class="flex w-full items-center justify-center gap-4 rounded-full bg-white p-4 align-middle text-black disabled:bg-slate-400 sm:w-auto"
 	>
 		Entrar em contato.
 		<svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
