@@ -19,17 +19,25 @@
 			data[key] = value;
 		}
 		sended = true;
-		await setDoc(doc(db, 'contatos', uid()), data);
-		setTimeout(() => {
-			sended = false;
-		}, 5000);
+
+		await fetch('https://smtp.fluma.dev/send', {
+			method: 'POST',
+			mode: 'no-cors',
+			body: JSON.stringify(data),
+			headers: {
+				'Content-Type': 'application/json',
+				'Access-Control-Allow-Origin': '*'
+			}
+		});
+
 	}
+
 </script>
 
 <form on:submit|preventDefault={onSubmit}>
 	<input placeholder="Nome" name="name" required class="bg-slate-900" />
-	<input placeholder="Empresa" name="company"  class="bg-slate-900"/>
-	<select name="interest" value="" required  class="bg-slate-900">
+	<input placeholder="Empresa" name="company" class="bg-slate-900" />
+	<select name="interest" value="" required class="bg-slate-900">
 		<option disabled value="">Interesse</option>
 		<optgroup label="Web">
 			<option value="Websites">Websites</option>
@@ -42,10 +50,13 @@
 			<option value="Other">Outros</option>
 		</optgroup>
 	</select>
-	<input placeholder="Email" name="email" required  class="bg-slate-900"/>
+	<input placeholder="Email" name="email" required class="bg-slate-900" />
+	
+	
 	<button
+		disabled={sended}
 		type="submit"
-		class="flex w-full items-center justify-center gap-4 rounded-full bg-white p-4 align-middle text-black sm:w-auto"
+		class="flex w-full items-center justify-center gap-4 rounded-full bg-white p-4 align-middle text-black sm:w-auto disabled:bg-slate-400"
 	>
 		Entrar em contato.
 		<svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
