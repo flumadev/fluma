@@ -63,7 +63,7 @@
 
 .glow-pink {
     --tw-bg-opacity: 1;
-    background-color: rgb(136 40 182/var(--tw-bg-opacity));
+    background-color: rgb(136 40 182/1);
 }
 
 .glow-purple {

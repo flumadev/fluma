@@ -37,6 +37,8 @@
 		"@prismicio/client": "^6.7.3",
 		"@prismicio/helpers": "^2.3.9",
 		"@vercel/analytics": "^1.0.1",
-		"puppeteer": "^20.1.2"
+		"firebase": "^9.22.0",
+		"puppeteer": "^20.1.2",
+		"short-unique-id": "^4.4.4"
 	}
 }
