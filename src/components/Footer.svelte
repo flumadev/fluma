@@ -1,13 +1,12 @@
 <script>
-	import Contact from "./Contact.svelte";
-
-
+	import Contact from './Contact.svelte';
 </script>
+
 <footer class="section z-0 mt-2 pb-16 sm:ml-12 md:ml-16">
 	<div
-		class="container flex flex-col items-start gap-8  sm:items-center sm:justify-center sm:gap-16"
+		class="container flex flex-col items-start gap-8 sm:items-center sm:justify-center sm:gap-16"
 	>
-		<h1 class="text-3xl">Venha para o futuro.</h1>
+		<h1 class="text-3xl">Entre em contato e venha para o futuro.</h1>
 		<Contact />
 	</div>
 
@@ -15,27 +14,5 @@
 		<img alt="Fluma" class="w-8" width="32" height="32" src="/logo.svg" />
 		<p class="mt-8 text-sm font-thin">&copy; Fluma soluções digitais</p>
 		<p class="mt-8 text-sm font-thin">45.381.189/0001-48</p>
-	</div>
-
-	<div class="flex gap-7 text-xs container">
-		<ul class="list-disc">
-			<li>
-				<a href="/design">Design</a>
-			</li>
-			<li>
-				<a href="/technology">Tecnologia</a>
-			</li>
-			<li>
-				<a href="/service">Serviços</a>
-			</li>
-		</ul>
-		<ul class="list-disc">
-			<li>
-				<a href="tech/ecommerce">Ecommerce</a>
-			</li>
-			<li>
-				<a href="tech/modern-websites-and-apps">Sites e Aplicativos</a>
-			</li>
-		</ul>
 	</div>
 </footer>
