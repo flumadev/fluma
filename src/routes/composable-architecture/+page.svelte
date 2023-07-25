@@ -61,21 +61,20 @@
 				<div class="">
 					<h3 class="title mb-6 text-base md:text-lg lg:text-xl">API First</h3>
 					<p style="max-width: 340px" class="relative z-10 text-gray-400/60">
-						Composable architecture is based on the principle of API-first, ensuring that
-						applications in the stack work with other APIs regardless of the programming language or
-						platform they are written in. Not only the APIs are language agnostic, but if used
-						correctly, they can be used to build a complete stack of products that work together
-						seamlessly.
+						A arquitetura composable é baseada no princípio API-first, garantindo que os aplicativos
+						funcionem com outras APIs, independentemente da linguagem de programação ou da
+						plataforma em que foram escritos.
 					</p>
 				</div>
 				<div class="">
 					<h3 class="title mb-6 text-base md:text-lg lg:text-xl">Composable vs. monoliths</h3>
 					<p style="max-width: 340px" class="relative z-10 text-gray-400/60">
-						Composable architecture é baseada no princípio API-first, garantindo que os aplicativos
-						na pilha funcionam com outras APIs, independentemente da linguagem de programação ou
-						plataforma em que foram escritos. Não apenas as APIs são independentes de linguagem,
-						mas, se usadas corretamente, eles podem ser usados para construir uma pilha completa de
-						produtos que funcionam juntos perfeitamente.
+						A arquitetura composable oferece uma série de vantagens claras, como plug-and-play,
+						API-first e desenvolvimento independente. A principal vantagem é que ele permite que
+						você crie produtos que funcionam perfeitamente juntos. Isso contrasta com a arquitetura
+						monolítica, que se baseia na ideia de construir uma pilha completa de produtos a partir
+						de uma única base de código. Essa abordagem não é apenas mais difícil de implementar,
+						mas também dificulta a integração com outros produtos.
 					</p>
 				</div>
 				<div class="">
