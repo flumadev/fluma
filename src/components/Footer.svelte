@@ -12,7 +12,7 @@
 
 	<div class="mt-32 flex min-h-[200px] flex-col items-center justify-center">
 		<img alt="Fluma" class="w-8" width="32" height="32" src="/logo.svg" />
-		<p class="mt-8 text-sm font-thin">&copy; Fluma soluções digitais</p>
+		<p class="mt-8 text-sm font-thin">&copy; Fluma Soluções Digitais</p>
 		<p class="mt-8 text-sm font-thin">45.381.189/0001-48</p>
 	</div>
 </footer>
