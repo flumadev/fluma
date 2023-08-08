@@ -1,5 +1,7 @@
 <script>
-	let sended = false;
+	import { goto } from '$app/navigation';
+
+	let loading = false;
 	/**
 	 * @param {any} e
 	 */
@@ -14,8 +16,8 @@
 			const [key, value] = field;
 			data[key] = value;
 		}
-		sended = true;
 
+		loading = true;
 		await fetch('https://smtp.fluma.dev/send', {
 			method: 'POST',
 			mode: 'no-cors',
@@ -25,6 +27,9 @@
 				'Access-Control-Allow-Origin': '*'
 			}
 		});
+		loading = false;
+		goto('/obrigado');
+		e.target.reset();
 	}
 
 	let phone = '';
@@ -73,50 +78,60 @@
 	<input placeholder="Email" name="email" required class="bg-slate-900" />
 
 	<button
-		disabled={sended}
+		disabled={loading}
 		type="submit"
 		class="flex w-full items-center justify-center gap-4 rounded-full bg-white p-4 align-middle text-black disabled:bg-slate-400 sm:w-auto"
 	>
 		Entrar em contato.
-		<svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-			<g id="Complete">
-				<g id="arrow-right">
-					<g>
-						<polyline
-							data-name="Right"
-							fill="none"
-							id="Right-2"
-							points="16.4 7 21.5 12 16.4 17"
-							stroke="#000000"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-						/>
+		{#if loading}
+			<svg
+				class="-ml-1 mr-3 h-5 w-5 animate-spin text-black"
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 24 24"
+			>
+				<circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+				<path
+					class="opacity-75"
+					fill="currentColor"
+					d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0
+				3.042 1.135 5.824 3 7.938l3-2.647z"
+				/>
+			</svg>
+		{:else}
+			<svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+				<g id="Complete">
+					<g id="arrow-right">
+						<g>
+							<polyline
+								data-name="Right"
+								fill="none"
+								id="Right-2"
+								points="16.4 7 21.5 12 16.4 17"
+								stroke="#000000"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+							/>
 
-						<line
-							fill="none"
-							stroke="#000000"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							x1="2.5"
-							x2="19.2"
-							y1="12"
-							y2="12"
-						/>
+							<line
+								fill="none"
+								stroke="#000000"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								x1="2.5"
+								x2="19.2"
+								y1="12"
+								y2="12"
+							/>
+						</g>
 					</g>
 				</g>
-			</g>
-		</svg>
+			</svg>
+		{/if}
 	</button>
 </form>
-
-{#if sended}
-	<p class="max-w-lg text-purple-300">
-		Obrigado por entrar em contato! Recebemos sua mensagem e nossa equipe irá responder o mais breve
-		possível.
-	</p>
-{/if}
 
 <style>
 	form {
@@ -147,5 +162,8 @@
 		-moz-appearance: none; /* Firefox */
 		-webkit-appearance: none; /* Safari and Chrome */
 		appearance: none;
+	}
+	.animate-spin {
+		animation: spin 1s linear infinite;
 	}
 </style>
