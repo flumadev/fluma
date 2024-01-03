@@ -7,7 +7,15 @@
 		class="container flex flex-col items-start gap-8 sm:items-center sm:justify-center sm:gap-16"
 	>
 		<h1 class="text-3xl">Entre em contato e venha para o futuro.</h1>
-		<Contact />
+		<div
+			data-tf-widget="MokfVn2e"
+			data-tf-opacity="100"
+			data-tf-iframe-props="title=Contato Site"
+			data-tf-transitive-search-params
+			data-tf-medium="snippet"
+			style="width:100%;height:500px;"
+		/>
+		<script src="//embed.typeform.com/next/embed.js"></script>
 	</div>
 
 	<div class="mt-32 flex min-h-[200px] flex-col items-center justify-center">
