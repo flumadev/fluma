@@ -15,7 +15,7 @@
 			data-tf-medium="snippet"
 			style="width:100%;height:500px;"
 		/>
-		<script src="//embed.typeform.com/next/embed.js"></script>
+		<script src="https://embed.typeform.com/next/embed.js"></script>
 	</div>
 
 	<div class="mt-32 flex min-h-[200px] flex-col items-center justify-center">
