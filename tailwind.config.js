@@ -1,16 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
-	theme: {
-		container: {
-			center: true,
-			padding: {
-				DEFAULT: '2rem',
-				sm: '4rem',
-				lg: '6rem'
-			}
-		},
-		extend: {}
-	},
-	plugins: []
-};
+  content: ["./src/**/*.{html,js,tsx,jsx,ts}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: [
+          '"Bricolage Grotesque", sans-serif',
+        ],
+        'roboto': [
+          '"Roboto", sans-serif'
+        ]
+      }
+
+    },
+  },
+  plugins: [],
+}
+
