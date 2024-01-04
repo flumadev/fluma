@@ -7,7 +7,7 @@ export function Nav() {
                 </a>
             </div>
             <nav class="bg-purple-500 sticky top-0 z-50" >
-                <ul class='w-full border-2 border-t-0 flex items-center gap-4 border-slate-900  text-white h-16'>
+                <ul class='w-full border-2 border-t-0 flex items-center gap-4 border-slate-900  text-white font-black h-16'>
                     <li class='h-full'>
                         <a class='h-full  flex items-center px-4 md:px-8 hover:underline' href="/design">Design</a></li>
                     <li class='h-full'>
