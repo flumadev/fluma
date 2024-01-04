@@ -27,7 +27,7 @@ export const renderer = jsxRenderer(
           <meta name="twitter:description" content="Agência digital especializada em e-commerce, desenvolvimento web e aplicativos." />
           <meta name="twitter:image" content="https://fluma.dev/og.png" />
           <meta name="keywords" content="sistemas,sites,aplicativos,software,desenvolvimento de software,desenvolvimento de aplicativos,desenvolvimento de sites,agência de desenvolvimento,criação de sites,empresa de desenvolvimento de sites " />
-          <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous" />
+          {/* <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous" /> */}
           <link href="/static/style.css" rel="stylesheet" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
