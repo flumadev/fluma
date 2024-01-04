@@ -16,16 +16,16 @@ export function Footer({ showForm = false }) {
                     <div>
                         <ul>
                             <li class="hover:text-purple-500">
-                                <a href="/desgin">Design</a>
+                                <a class="h-12 flex p-3 items-center justify-start" href="/design">Design</a>
                             </li>
                             <li class="hover:text-purple-500">
-                                <a href="/tech">Tecnologia</a>
+                                <a class="h-12 flex p-3 items-center justify-start" href="/tech">Tecnologia</a>
                             </li>
                             <li class="hover:text-purple-500">
-                                <a href="/servicos">Serviços</a>
+                                <a class="h-12 flex p-3 items-center justify-start" href="/servicos">Serviços</a>
                             </li>
                             <li class="hover:text-purple-500">
-                                <a href="https://www.instagram.com/fluma.dev/">@fluma.dev</a>
+                                <a class="h-12 flex p-3 items-center justify-start" href="https://www.instagram.com/fluma.dev/">@fluma.dev</a>
                             </li>
                         </ul>
                     </div>
