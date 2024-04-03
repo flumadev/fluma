@@ -2,23 +2,13 @@
 const links = [
   {
     ref: '01',
-    name: 'Home',
+    name: 'Início',
     href: '/',
   },
   {
-    ref: '02',
-    name: 'About',
-    href: '/about',
-  },
-  {
     ref: '03',
-    name: 'Pricing',
-    href: '/pricing',
-  },
-  {
-    ref: '04',
-    name: 'Contact',
-    href: '/contact',
+    name: 'Contato',
+    href: '/contato',
   },
 ];
 ---
@@ -37,14 +27,9 @@ const links = [
         href="/"
         class="focus-visible:outline-primary-950 dark:group-focus-visible:outline-primary-200 rounded-md focus-visible:outline focus-visible:outline-2"
       >
-        <span class="sr-only">Stone</span>
-        <img
-          class="h-8 w-auto"
-          width="65"
-          height="40"
-          :src="$store.theme.isDark ? '/assets/logo-inverted.svg' : '/assets/logo.svg'"
-          alt="Stone"
-        />
+        <span class="sr-only">Fluma</span>
+        
+        <h1 class="text-4xl font-bold">Fluma</h1>
       </a>
     </div>
 
@@ -57,7 +42,7 @@ const links = [
         x-data
         @click="$store.theme.toggle()"
       >
-        <span class="sr-only">Toggle theme mode</span>
+        <span class="sr-only">Mudar tema</span>
         <svg
           x-cloak
           class="h-6 w-6"
@@ -96,7 +81,7 @@ const links = [
         aria-expanded="false"
         :aria-expanded="open.toString()"
       >
-        <span class="sr-only">Toggle menu</span>
+        <span class="sr-only">Abrir menu</span>
         <svg
           x-cloak
           class="h-8 w-8"
@@ -141,8 +126,7 @@ const links = [
         <p
           class="text-primary-950/70 dark:text-primary-200/70 max-w-sm text-xl italic leading-loose"
         >
-          <span class="font-medium">Stone</span> is a premium Astro theme specially designed for
-          Business, Marketing, SaaS and Startup websites.
+         Agência digital especializada em <br/> e-commerce, desenvolvimento web e aplicativos.
         </p>
       </div>
 
